@@ -14,5 +14,11 @@ namespace LMS_Login
             user.Password = PasswordGenerator.GeneratePassword(8);
             EmailSender.SendCredentials(user);
         }
+
+        public static void LoginUser(User user)
+        {
+
+
+        }
     }
 }
